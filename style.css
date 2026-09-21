@@ -3,15 +3,38 @@
 h2{
     color:green;
 }
+
 .highlight{
     border:solid;
 }
+
 #profile{
     border:solid;
     border-color:blue;
-}.thumbnail{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
 }
-.thumbnail{width:100%;
+
+.thumbnail_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+  .thumbnail {
+    width: 100%;
+    
+}
+
+
+#stat_bar{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.stat{
+    text-align:center;
 }
